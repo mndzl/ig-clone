@@ -1,0 +1,23 @@
+.comment-count{
+    display: block;
+    margin:0;
+    opacity: .5;
+    margin:.5em 1em;
+}
+.comment{
+    margin:0em 1em;
+    display: flex;
+    padding:0;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment-username{
+    font-weight: bold;
+}
+.comment-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    margin: 0;
+}

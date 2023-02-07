@@ -1,0 +1,19 @@
+.instagramLogo img{
+    height: 30px;
+}
+.instagramLogo{
+    display: inline;
+}
+
+#head-main{
+    display: flex;
+    justify-content: space-between;
+    padding:1em;
+    padding-bottom: 0;
+}
+
+.head-main-right{
+    display: flex;
+    font-size: 1.5em;
+    gap:.7em;
+}

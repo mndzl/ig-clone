@@ -1,0 +1,48 @@
+#stories{
+    display: flex;
+    padding:0 .5em;
+    gap:1em;
+    overflow: scroll;
+    scrollbar-width: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.personal-story{
+    opacity: .5;
+}
+
+.personal-circle-nostory{
+    height: 65px;
+    width: 65px;
+    background-color: transparent !important;
+    border: 3px solid white !important;
+    border-radius: 50px;
+    box-shadow:none !important;
+    box-sizing: border-box;
+    position: relative;
+    overflow: visible !important;
+}
+.story img{
+    height: 55px;
+    border-radius: 50px;
+}
+
+.story-personal-add{
+    position:absolute;
+    bottom: .1em;
+    right: 0;
+    height: 1em;
+    width: 1em;
+    margin:auto;
+    color:#008cff;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 0 2px #fff;
+    box-sizing: border-box;
+}
+.personal-story{
+    display: block;
+}
+.personal-story{
+    text-align: center;
+}
