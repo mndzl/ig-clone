@@ -1,4 +1,4 @@
-Instagram clone created using HTML, CSS and React.
+### Instagram clone created using HTML, CSS and React.
 
 
 
