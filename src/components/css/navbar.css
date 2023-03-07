@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-around;
     font-size: 1.5em;
+    width: 100%;
+    max-width: 576px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding:.5em;
     position: fixed;
     bottom: 0;
     background-color: #fff;
-    width: 100%;
     z-index: 5;
 }

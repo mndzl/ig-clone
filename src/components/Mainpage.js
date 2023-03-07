@@ -66,10 +66,7 @@ function Mainpage(){
                     description={post.description}
                 />
             ))}
-            {/* <Post img={post1} user="zarahenderson" user_image={person1} comment_count="12" likes="470,231" description="Hi this is my first post!"/>
-            <Post img={post2} user="danielross" user_image={person2} comment_count="122" likes="1,231" description="Happy in the best place"/>
-            <Post img={post3} user="chrisevans" user_image={person3} comment_count="4,263" likes="45" description="Being in the avengers was the best thing ever"/>
-            <Post img={post4} user="julievann" user_image={person4} comment_count="2" likes="1,321,455" description="Ready to thrive!"/> */}
+            
             <Navbar />            
            
 

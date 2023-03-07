@@ -52,7 +52,8 @@ function Stories(){
                 <Story 
                     username={story.username}
                     img={story.img}
-                    story={true}
+                    story_available={true}
+                    post={false}
                 />
             )}
 

@@ -5,11 +5,13 @@ function Story(props){
     // Re-order story classes
 
     return (
-        <div className="story">
-            <UserImage h="55px" img={props.img} story={true}/>
-            <span className="story-username">
-                <p>{props.username}</p>
-            </span>
+        <div className="story_container">
+            <div className="story">
+                <UserImage img={props.img} story_available={props.story_available} post={props.post}/>
+                <span className="story-username">
+                    <p>{props.username}</p>
+                </span>
+            </div>
         </div>
     );
 }

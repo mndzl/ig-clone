@@ -1,12 +1,28 @@
 import './css/userimage.css';
-import luis from './images/luis.jpeg';
+import { useEffect, useState } from 'react';
 
 function UserImage(props){
-    console.log(props.h);
+    const [height, setHeight] = useState(65)
+
+    const [innerHeight, setInnerHeight] = useState(55);
+
+    useEffect(() => {
+        if(props.post || props.navbar){
+            setHeight(40)
+            setInnerHeight(30)
+        }
+        if(props.navbar){
+            setHeight(30)
+            setInnerHeight(20)
+        }
+
+        console.log("h modified is: " + innerHeight)
+    },[])
+
     return (
         <div className="userImage">
-            <div className={props.post ? 'userImagePost' : "circle"}>
-                <img src={props.img} style={{"height":props.h}}  />
+            <div className={props.story_available ? 'story_available' : ""} style={{"height":height, "width":height}}>
+                <img src={props.img} style={{"height":innerHeight, "width":innerHeight}}  />
             </div>
         </div>
     );

@@ -1,19 +1,21 @@
 import './css/post.css';
-import UserImage from './UserImage';
 import { SlOptions } from 'react-icons/sl';
-import luis from './images/luis.jpeg';
 import { FaRegHeart } from 'react-icons/fa';
 import { FaRegComment } from 'react-icons/fa';
 import { TbSend } from 'react-icons/tb'
 import { BiBookmark } from 'react-icons/bi'
 import Comment from './comment';
+import Story from './Story';
 
 function Post({img, user, user_image, likes, description, comment_count}){
     return (
         <div className="post">
             <div className="post-header">
                 <div className="post-header-left">
-                    <UserImage h="32px" post="true" img={user_image}/>
+                    <div className="post-story">
+                        <Story story_available={true} img={user_image} post={true} />
+                    </div>
+                    
                     <div className="post-author">
                         <div className="post-username">
                             <p>{user}</p>

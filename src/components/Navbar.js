@@ -4,6 +4,7 @@ import { MdHomeFilled } from 'react-icons/md'
 import { BiSearch } from 'react-icons/bi'
 import { BiMoviePlay } from 'react-icons/bi'
 import { BiShoppingBag } from 'react-icons/bi'
+import UserImage from './UserImage';
 import luis from './images/luis.jpeg'
 
 function Navbar(){
@@ -22,7 +23,7 @@ function Navbar(){
                <BiShoppingBag /> 
             </div>
             <div className="profile">
-                <img src={luis} height="20px" width="20px" style={{"border-radius":"50px"}}/>
+                <UserImage img={luis} navbar={true}/>
             </div>
             
         </div>
