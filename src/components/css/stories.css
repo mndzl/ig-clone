@@ -2,9 +2,13 @@
     display: flex;
     padding:0 .5em;
     gap:1em;
-    overflow-y: scroll;
-    scrollbar-width: none;
+    overflow: scroll; 
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+#stories::-webkit-scrollbar{
+    display: none;
 }
 
 .personal-story{

@@ -4,6 +4,7 @@
   position: relative;
 }
 #app-content{
+  width:100vw;
   max-width: 600px;
 }
 .username, .clickable{

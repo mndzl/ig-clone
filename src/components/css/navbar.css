@@ -3,11 +3,12 @@
     justify-content: space-around;
     font-size: 1.5em;
     width: 100%;
+    max-height:1em;
     max-width: 576px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding:.5em;
     position: fixed;
-    bottom: 0;
+    bottom:0;
     background-color: #fff;
     z-index: 5;
 }
